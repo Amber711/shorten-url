@@ -1,0 +1,24 @@
+{
+  "name": "tinyurl",
+  "version": "1.0.0",
+  "description": "shorten a long url into a tiny url",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amber711/shorten-url.git"
+  },
+  "author": "Amber Lum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amber711/shorten-url/issues"
+  },
+  "homepage": "https://github.com/Amber711/shorten-url#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
